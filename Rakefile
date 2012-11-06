@@ -28,9 +28,9 @@ task :compile do
         assets_path = source_dir.join('lib', 'assets', 'javascripts', 'core').to_s
         sprockets.append_path(assets_path)
 
-        puts `cp #{root}/index.js #{assets_path}`
+        puts `cp #{root}/assets/index.js #{assets_path}`
 
         assets = sprockets.find_asset('index.js')
-        assets.write_to(root.join('frappuccino-container.js'))
+        assets.write_to(root.join('build', 'frappuccino-container.js'))
     end
 end
