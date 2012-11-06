@@ -1,4 +1,30 @@
 (function() {
+  var __slice = [].slice;
+
+  window.namespace = function(scope, fn) {
+    var add_namespace;
+    add_namespace = function(scope, ctx) {
+      var outer, rest;
+      outer = scope[0], rest = 2 <= scope.length ? __slice.call(scope, 1) : [];
+      if (!(ctx[outer] != null)) {
+        ctx[outer] = {};
+      }
+      if (rest.length) {
+        return add_namespace(rest, ctx[outer]);
+      } else {
+        if (!(ctx[outer].namespace != null)) {
+          ctx[outer].namespace = window.namespace;
+        }
+        if (!!(fn != null)) {
+          return fn.apply(ctx[outer], []);
+        }
+      }
+    };
+    return add_namespace(scope.split("."), this);
+  };
+
+}).call(this);
+(function() {
 
   namespace("core");
 
@@ -243,5 +269,6 @@
   })(core.BaseObject);
 
 }).call(this);
+
 
 
