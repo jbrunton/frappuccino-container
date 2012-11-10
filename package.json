@@ -3,5 +3,6 @@
   "main": "build/frappuccino-container.js",
   "dependencies" : {
     "underscore"   :  "*"
-  }
+  },
+  "version" : "0.0.1"
 }
