@@ -36,7 +36,7 @@ require([
 ], function(frappuccino) {
     frappuccino.noConflict();
     container = new frappucino.core.Container();
-    # etc.
+    // etc.
 });
 ```
 
