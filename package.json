@@ -1,0 +1,7 @@
+{
+  "name": "frappuccino-container",
+  "main": "build/frappuccino-container.js",
+  "dependencies" : {
+    "underscore"   :  "*"
+  }
+}
