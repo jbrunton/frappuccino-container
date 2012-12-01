@@ -8,7 +8,7 @@
 
 Install the latest version from master:
 
-    npm install https://github.com/jbrunton/frappuccino-container/tarball/master
+    npm install -g https://github.com/jbrunton/frappuccino-container/tarball/master
 
 Then simply ```require``` it:
 
