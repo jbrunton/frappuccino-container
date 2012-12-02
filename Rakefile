@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler'
+require 'bundler/gem_tasks'
 require 'pathname'
 require 'logger'
 require 'fileutils'

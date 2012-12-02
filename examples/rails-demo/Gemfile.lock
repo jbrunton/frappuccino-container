@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jbrunton/frappuccino-container.git
-  revision: 97488ae8e3ca3bfb2709de6596dc8abb7d471000
+  revision: 0337e7756a524404b15a33a94463101e86d92525
   specs:
     frappuccino-container (0.0.1)
       coffee-script

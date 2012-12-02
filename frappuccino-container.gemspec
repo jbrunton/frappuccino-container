@@ -12,12 +12,6 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
   
-  gem.add_dependency 'sprockets'
-  gem.add_dependency 'coffee-script'
-  gem.add_dependency 'sprocketize'
-  gem.add_dependency 'sprockets'
-  gem.add_dependency "railties", "~> 3.1"
-  
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
