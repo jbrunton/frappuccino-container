@@ -1,6 +1,6 @@
 {
   "name": "frappuccino-container",
-  "main": "build/frappuccino-container.js",
+  "main": "lib/assets/javascripts/frappuccino-container.js",
   "dependencies" : {
     "underscore"   :  "*"
   },
