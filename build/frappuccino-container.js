@@ -24,7 +24,9 @@
 
   _global.namespace = namespace;
 
-  _global._ = require('underscore');
+  if ((typeof require !== "undefined" && require !== null) && (typeof exports !== "undefined" && exports !== null)) {
+    _global._ = require('underscore');
+  }
 
 }).call(this);
 (function() {
