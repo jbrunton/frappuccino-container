@@ -1,13 +1,7 @@
-GIT
-  remote: https://github.com/jbrunton/frappuccino-container.git
-  revision: 0337e7756a524404b15a33a94463101e86d92525
+PATH
+  remote: /git/frappuccino-container
   specs:
     frappuccino-container (0.0.1)
-      coffee-script
-      railties (~> 3.1)
-      sprocketize
-      sprockets
-      sprockets
 
 GEM
   remote: https://rubygems.org/
@@ -95,8 +89,6 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-    sprocketize (0.1)
-      sprockets (>= 2.1.2)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
