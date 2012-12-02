@@ -18,6 +18,6 @@ task :compile do
         
         puts `git clone git@github.com:jbrunton/frappuccino-core.git #{source_dir}`
         puts `rake -f #{source_dir}/Rakefile build_container`
-        puts `cp #{source_dir}/build/frappuccino-container.js #{root}/build`
+        puts `cp #{source_dir}/build/frappuccino-container.js #{root}/lib/assets/javascripts`
     end
 end
